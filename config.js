@@ -3,8 +3,8 @@
 module.exports = {
   url: 'https://lumen.netlify.com',
   pathPrefix: '/',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  title: 'Jesse-Gjerde-Portfolio',
+  subtitle: 'Software Developer',
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
@@ -12,7 +12,7 @@ module.exports = {
   useKatex: false,
   menu: [
     {
-      label: 'Articles',
+      label: 'Projects',
       path: '/'
     },
     {
@@ -22,14 +22,19 @@ module.exports = {
     {
       label: 'Contact me',
       path: '/pages/contacts'
+    },
+    {
+      label: 'Blog',
+      path: '/pages/blog'
     }
+
   ],
   author: {
-    name: 'John Doe',
-    photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    name: 'Jesse Gjerde',
+    photo: '/photo.png',
+    bio: 'Software Developer',
     contacts: {
-      email: '',
+      email: 'jessegjerde89@gmail.com',
       facebook: '#',
       telegram: '#',
       twitter: '#',
